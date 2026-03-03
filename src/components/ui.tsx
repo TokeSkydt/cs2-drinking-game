@@ -65,11 +65,12 @@ export function GuessingRulesCard() {
     <div className="bg-cs-card border-l-4 border-l-cs-red border border-cs-border rounded-lg p-[18px]">
       <p className="font-display text-[22px] mb-2">GUESSING ROUND</p>
       <p className="text-[14px] text-cs-text-muted leading-relaxed">
-        One guess per player.{" "}
-        <strong className="text-cs-text">
-          Correct → they drink a shot. Wrong → they give out a shot.
-        </strong>
-      </p>
+            All players guess the challenge.{" "}
+            <strong className="text-cs-text">
+              If they guess correctly → the player takes a shot. If they guess
+              wrong → the player gives out a shot.
+            </strong>
+          </p>
     </div>
   );
 }
